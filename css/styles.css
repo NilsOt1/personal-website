@@ -2,3 +2,7 @@
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+h1 {
+  font-family: Brush Script MT;
+  font-weight: lighter;
+}
