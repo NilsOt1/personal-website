@@ -8,14 +8,16 @@ h1 {
   font-weight: lighter;
   text-align: auto;
   text-shadow: lightgray 2px 2px;
+  margin: 30px;
 }
 .nav {
   text-align: auto;
+  margin: 30px;
 }
 .pflanze {
   border-radius: 50%;
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
   margin-bottom: 20px;
   box-shadow: 15px 15px 40px 5px #2d420a;
 }
