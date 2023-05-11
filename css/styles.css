@@ -27,7 +27,7 @@ h1 {
   box-shadow: 10px 10px 20px 1px rgb(0, 0, 0);
 }
 .bio {
-  margin: 50px 20px;
+  margin: 30px 20px;
   text-align: auto;
   border: solid;
   border-width: thin;
@@ -36,7 +36,16 @@ h1 {
   padding: 10px;
 }
 .skillset {
-  margin: 50px 20px;
+  margin: 30px 20px;
+  text-align: auto;
+  border: solid;
+  border-radius: 18px;
+  border-width: thin;
+  box-shadow: 10px 10px 30px 1px;
+  padding: 10px;
+}
+.contact {
+  margin: 30px 20px;
   text-align: auto;
   border: solid;
   border-radius: 18px;
