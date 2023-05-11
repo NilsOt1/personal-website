@@ -30,7 +30,17 @@ h1 {
   margin: 50px 20px;
   text-align: auto;
   border: solid;
+  border-width: thin;
   border-radius: 18px;
+  box-shadow: 10px 10px 30px 1px;
+  padding: 10px;
+}
+.skillset {
+  margin: 50px 20px;
+  text-align: auto;
+  border: solid;
+  border-radius: 18px;
+  border-width: thin;
   box-shadow: 10px 10px 30px 1px;
   padding: 10px;
 }
