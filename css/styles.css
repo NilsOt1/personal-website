@@ -11,7 +11,6 @@ h1 {
   margin: 30px;
 }
 .nav {
-  text-align: auto;
   margin: 30px;
 }
 .pflanze {
@@ -28,30 +27,13 @@ h1 {
   margin-left: 10px;
   box-shadow: 10px 10px 20px 1px rgb(0, 0, 0);
 }
-.bio {
-  margin: 30px 20px;
-  text-align: auto;
-  border: solid;
-  border-width: thin;
-  border-radius: 18px;
-  box-shadow: 10px 10px 30px 1px;
-  padding: 10px;
-}
-.skillset {
-  margin: 30px 20px;
-  text-align: auto;
-  border: solid;
-  border-radius: 18px;
-  border-width: thin;
-  box-shadow: 10px 10px 30px 1px;
-  padding: 10px;
-}
+.bio,
+.skillset,
 .contact {
   margin: 30px 20px;
-  text-align: auto;
   border: solid;
-  border-radius: 18px;
   border-width: thin;
+  border-radius: 18px;
   box-shadow: 10px 10px 30px 1px;
   padding: 10px;
 }
