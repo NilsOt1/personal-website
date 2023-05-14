@@ -1,14 +1,16 @@
 * {
   box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: auto;
+  margin: 0;
+  padding: 0;
 }
-h1 {
+.header {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 30px;
   font-family: Brush Script MT;
   font-weight: lighter;
-  text-align: auto;
   text-shadow: lightgray 2px 2px;
-  margin: 30px;
 }
 .nav {
   margin: 30px;
