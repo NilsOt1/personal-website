@@ -7,13 +7,29 @@
   display: flex;
   justify-content: center;
   position: sticky;
-  top: 30px;
+  margin: 30px;
+  top: 10px;
   font-family: Brush Script MT;
   font-weight: lighter;
   text-shadow: lightgray 2px 2px;
 }
+a:link {
+  text-decoration: none;
+  color: green;
+}
+a:hover {
+  color: black;
+}
+.navpic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 .nav {
-  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 2em;
 }
 .pflanze {
   border-radius: 50%;
