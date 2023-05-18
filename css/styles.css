@@ -51,63 +51,81 @@ a:hover {
 }
 .bio,
 .card__skillset,
-.contact {
+.card__contact {
   margin: 30px 20px;
   border: solid;
   border-width: thin;
   border-radius: 18px;
   box-shadow: 10px 10px 30px 1px;
-  padding: 10px;
+  padding: 15px;
   line-height: 1.6em;
+}
+.telephoneimg {
+  height: 50px;
+}
+.envelope {
+  height: 50px;
+}
+.xingimg {
+  height: 60px;
+}
+.linkedinimg {
+  height: 50px;
+}
+.githubimg {
+  height: 70px;
 }
 .card__skillset {
   display: grid;
+  gap: 5px;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(4, 1fr);
 }
 .card__skillset--h2 {
   text-align: center;
   grid-column: 1 / 4;
-  grid-gap: 5px;
 }
 .card__skillset--git {
-  border: solid 2px;
+  border: solid 1px;
   border-radius: 5px;
   text-align: center;
   grid-area: 2 / 6 / 4 / 7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .card__skillset--css {
-  border: solid 2px;
+  border: solid 1px;
   border-radius: 5px;
   text-align: center;
   grid-area: 3 / 2 / 4 / 6;
 }
 .card__skillset--html {
-  border: solid 2px;
+  border: solid 1px;
   border-radius: 5px;
   text-align: center;
   grid-area: 2 / 1 / 3 / 5;
 }
 .card__skillset--js {
-  border: solid 2px;
+  border: solid 1px;
   border-radius: 5px;
   text-align: center;
   grid-area: 4 / 3 / 5 / 7;
 }
 .card__skillset--github {
-  border: solid 2px;
+  border: solid 1px;
   border-radius: 5px;
   text-align: center;
   grid-area: 4 / 1 / 5 / 3;
 }
 .card__skillset--grid {
-  border: solid 2px;
+  border: solid 1px;
   border-radius: 5px;
   text-align: center;
   grid-area: 3 / 1 / 4 / 2;
 }
 .card__skillset--flex {
-  border: solid 2px;
+  border: solid 1px;
   border-radius: 5px;
   text-align: center;
   grid-area: 2 / 5 / 3 / 6;
@@ -123,4 +141,44 @@ a:hover {
 }
 .button {
   text-align: center;
+}
+.card__contact {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 2.5fr 1fr 1fr 1fr 1.5fr;
+  grid-template-rows: 0.3fr 1fr 1fr;
+}
+.card__contact--h2 {
+  text-align: center;
+  grid-column: 1 / 4;
+}
+.card__contact--telephone {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  grid-area: 2 / 4 / 3 / 5;
+}
+.card__contact--xing {
+  border-radius: 5px;
+  text-align: center;
+  grid-area: 2 / 5 / 3 / 6;
+}
+.card__contact--linkedin {
+  border-radius: 5px;
+  text-align: center;
+  grid-area: 3 / 3 / 4 / 5;
+}
+.card__contact--mail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  grid-area: 2 / 2 / 4 / 3;
+}
+.card__contact--github {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  grid-area: 2 / 1 / 3 / 2;
 }
